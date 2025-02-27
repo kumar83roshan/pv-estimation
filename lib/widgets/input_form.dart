@@ -110,7 +110,7 @@ class InputFormState extends State<InputForm> {
                               Expanded(
                                 child: TextFormField(
                                   initialValue: size.toString(),
-                                  decoration: _lightYellowBoxDecoration("Nozzle Size (mm)"),
+                                  decoration: _lightYellowBoxDecoration("Nozzle Size (Inch)"),
                                   keyboardType: TextInputType.number,
                                   onChanged: (value) {
                                     setState(() {
